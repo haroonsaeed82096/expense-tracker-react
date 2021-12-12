@@ -3,8 +3,6 @@ import React from "react";
 import "./ExpenseDate.css";
 
 const ExpenseDate = (props) => {
-  console.log("EROROR...");
-  console.log(props.date);
   const month = props.date.toLocaleString("en-US", {
     month: "long",
   });
